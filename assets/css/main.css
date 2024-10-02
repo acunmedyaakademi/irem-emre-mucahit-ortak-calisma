@@ -978,6 +978,168 @@ header {
   gap: 42px;
 }
 
+/* Emre */
+
+.about_stay {
+	margin-top: 32px;
+	text-align: center;
+}
+
+.about_stay h3 {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: -0.10000000149011612px;
+	color: #437EF7;
+}
+
+.about_stay h4 {
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 44px;
+	letter-spacing: -0.02em;
+	color: #272D37;
+	margin-top: 32px;
+}
+
+.about_stay p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: -0.10000000149011612px;
+	color: #5F6D7E;
+	margin-top: 16px;
+}
+
+.about_page-titles h2 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: -0.02em;
+	text-align: center;
+	color: #272D37;
+	margin-top: 72px;
+	margin-bottom: 32px;
+
+}
+
+.about_page-titles p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: -0.10000000149011612px;
+	text-align: center;
+	color: var(--gray);
+	padding-top: 16px;
+	display: none;
+}
+
+.channel-articles {
+	background-color: var(--white);
+	padding: 32px 0;
+	display: grid;
+	grid-template-columns: auto;
+	gap: 16px 0;
+	
+}
+
+.channel-articles__item {
+	padding: 16px;
+}
+.channel-articles__item-top {
+	display: flex;
+	justify-content: space-between;
+	
+	span {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 48px;
+		height: 48px;
+		background-color: var(--icon-bg);
+
+		i {
+			font-size: 32px;
+			color: var(--blue);
+		}
+		
+	
+
+	}
+
+	a {
+		display: inline-block;
+		height:46px;
+		padding: 12px 18px 12px 18px;
+		gap: 6px;
+		border-radius:6px;
+		border:1px solid #5F6D7E;
+		font-size: 15px;
+		font-weight: 600;
+		line-height: 22px;
+		text-align: left;
+		color: #272D37;
+	}
+}
+
+.channel-articles__item-bottom {
+
+	h3 {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 28px;
+		letter-spacing: -0.02em;
+		text-align: left;
+		color: #272D37;
+		margin-top: 16px;
+
+	}
+
+	p {
+
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: -0.10000000149011612px;
+		text-align: left;
+		color: #5F6D7E;
+		margin-top: 8px;
+
+	}
+}
+
+
+.learn {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+
+  p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: var(--blue);
+  }
+
+  i {
+    color: var(--blue);
+    margin-top: 5px;
+    margin-left: 7px;
+  }
+}
+
+
+
+
+
+
+
+/* Emre */
+
+
+
 /* irem */
 .about-demonstrate-title h2 {
   margin-top: 32px;
@@ -1268,6 +1430,45 @@ header {
   .features_tablet_desktop {
     display: block;
   }
+
+  /* Emre  */
+
+  
+	.about_stay {
+		margin-top: 48px;
+	}
+	
+	
+	.about_stay h4 {
+		font-size: 52px;
+		font-weight: 700;
+		line-height: 60px;
+		letter-spacing: -0.01em;
+		text-align: center;
+		color: var(--black);
+		margin-top: 0px;
+		
+	}
+	
+	.about_stay p {
+		margin-top: 24px;
+	}
+
+	.channel-articles {
+		padding: 32px 0;  
+		display: grid;
+		grid-template-columns: auto auto;
+		gap:32px;
+		
+	}
+
+
+
+
+  /* Emre */
+
+
+
   /* irem  */
   .about-images {
     margin-top: 32px;
@@ -1469,6 +1670,79 @@ header {
   .features_inclusive {
     gap: 300px;
   }
+
+  /* Emre  */
+  .about_stay {
+    margin-top: 80px;
+    margin-left: 290px;
+    width: 640px;
+    height: 196px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  
+  }
+
+  .about_stay h4 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    color: #272D37;
+    margin-top: 16px;
+  }
+  
+  .about_stay p {
+    margin-top: 24px;
+  }
+  
+  .about_page-titles h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #272D37;
+    margin-top: 156px;
+    margin-bottom: 0px;
+  }
+
+  .about_page-titles p {
+    display: block;
+  }
+
+
+  .channel-articles {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 32px;
+    margin-top: 64px;
+    
+  }
+  
+  .channel-articles .channel-articles__item:nth-child(4) {
+    display: none;
+  }
+  .channel-articles .channel-articles__item:nth-child(5) {
+    display: none;
+  }
+  .channel-articles .channel-articles__item:nth-child(6) {
+    display: none;
+  }
+  
+
+
+
+
+
+
+  /* Emre */
+
+
+
+
   /* irem */
   .about-images {
     margin-top: 32px;
