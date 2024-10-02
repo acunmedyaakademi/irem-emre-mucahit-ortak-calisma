@@ -1433,7 +1433,6 @@ header {
 }
 
 .payment-type a {
-  
   padding: 9px 60px;
   color: #f9f9f9;
   font-size: 14px;
@@ -1533,6 +1532,118 @@ header {
   margin-bottom: 32px;
 }
 /* mucahit */
+
+/* pricing-emre */
+.pricing_grid_container {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 32px;
+  padding-inline: 2px;
+  gap: 40px;
+}
+
+.pricing-grid-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--black);
+  margin-top: 16px;
+}
+
+.pricing-grid-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--gray);
+  margin-top: 8px;
+}
+
+.pricing_page_titles {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.pricing_page_titles h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: var(--black);
+}
+
+.pricing_page_titles p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: var(--gray);
+  margin-top: 12px;
+}
+
+.pricing_outside_info h5 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--blue);
+  margin-top: 32px;
+}
+
+.pricing_outside_info h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--black);
+  margin-top: 8px;
+}
+
+.pricing_outside_info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--gray);
+  margin-top: 16px;
+}
+
+.pricing_button {
+  margin-top: 32px;
+}
+
+.pricing_button a {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  border-radius: 6px;
+}
+
+.pricing_button a i {
+  color: var(--white);
+}
+
+.pricing_outside_image {
+  margin-top: 32px;
+  .pricing_tablet {
+    display: none;
+  }
+  .pricing_desktop {
+    display: none;
+  }
+}
+/* pricing-emre */
 
 @media screen and (max-width: 767.98px) {
   .content-text {
@@ -1785,7 +1896,6 @@ header {
         width: 88px;
       }
     }
-    
   }
   .industry-img {
     display: flex;
@@ -1800,6 +1910,68 @@ header {
   .payment-type a {
     width: 185px;
   }
+
+  /* .emre-pricing */
+
+  .pricing_grid_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+    gap: 32px;
+  }
+
+  .pricing_page_titles {
+    margin-top: 80px;
+  }
+
+  .pricing_page_titles h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+  }
+
+  .pricing_page_titles p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    margin-top: 16px;
+  }
+
+  .pricing_outside {
+    margin-top: 40px;
+    padding-inline: 2px;
+  }
+
+  .pricing_outside_info h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+
+  .pricing_button {
+    margin-top: 40px;
+  }
+
+  .pricing_outside_image {
+    margin-top: 48px;
+
+    .pricing_mobile {
+      display: none;
+    }
+    .pricing_tablet {
+      display: block;
+    }
+    .pricing_desktop {
+      display: none;
+    }
+  }
+
+  /* .emre-pricing */
+
   .pricing-payment-packs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -2212,6 +2384,10 @@ header {
   .payment-type {
     margin-bottom: 64px;
   }
+
+  /* mucahit */
+
+  /* mucahit-pricing */
   .pricing-head {
     width: 640px;
     margin: 0 auto;
@@ -2234,7 +2410,45 @@ header {
     gap: 32px;
     padding-bottom: 64px;
   }
+  /* mucahit-pricing */
 
-  /* mucahit */
+  /* emre-pricing */
 
+  .pricing_page_titles {
+    margin-top: 128px;
+  }
+
+  .pricing_outside {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    margin-top: 64px;
+  }
+
+  .pricing_outside_info h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+
+  .pricing_button {
+    margin-top: 40px;
+  }
+
+  .pricing_outside_image {
+    margin-top: 48px;
+    margin-bottom: 64px;
+
+    .pricing_mobile {
+      display: none;
+    }
+    .pricing_tablet {
+      display: none;
+    }
+    .pricing_desktop {
+      display: block;
+    }
+  }
 }
