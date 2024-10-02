@@ -978,7 +978,7 @@ header {
   justify-content: center;
   gap: 42px;
 }
-
+/* mucahit */
 .question-main__header {
   margin-bottom: 32px;
   h3 {
@@ -1147,6 +1147,7 @@ header {
   }
 }
 /* mucahit */
+
 .pricing-header {
   background-color: var(--black-theme);
 }
@@ -1287,6 +1288,8 @@ header {
   margin-bottom: 32px;
 }
 /* mucahit */
+
+
 @media screen and (max-width: 767.98px) {
   .content-text {
     display: none;
@@ -1696,6 +1699,7 @@ header {
   .features_inclusive {
     gap: 300px;
   }
+  /* mucahit */
   .question-desktop {
     display: block;
   }
@@ -1804,6 +1808,7 @@ header {
       color: #5f6d7e;
     }
   }
+
   .payment-type {
     margin-bottom: 64px;
   }
@@ -1829,4 +1834,7 @@ header {
     gap: 32px;
     padding-bottom: 64px;
   }
+
+  /* mucahit */
+
 }
