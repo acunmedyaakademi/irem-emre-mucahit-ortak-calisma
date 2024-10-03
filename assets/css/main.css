@@ -1899,14 +1899,186 @@ header {
 }
 
 /* career-irem */
+/* MÜCAHİT CAREERS MOBİLE BASLANGIÇ */
+.careers-img img {
+  width: 100%;
+  margin-top: 32px;
+}
+.careers-industry {
+  background-color: #f8f9fb;
+}
+.careers-industry__head {
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.careers-industry__head a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  margin-bottom: 8px;
+  color: var(--blue);
+}
+.careers-industry__head h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 12px;
+  color: var(--black);
+}
+.careers-industry__head p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: var(--gray);
+}
+
+.careers-team__item h3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: var(--black);
+  margin-bottom: 8px;
+}
+.careers-team__item-link {
+  margin-bottom: 16px;
+}
+.careers-team__item-link:last-child {
+  margin-bottom: 32px;
+}
+.careers-team__item-link span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 12px 12px 16px;
+  background-color: #fff;
+  border: 1px solid #dae0e6;
+  border-radius: 5px;
+}
+.careers-staff {
+  background-color: #f8f9fb;
+}
+.careers-staff__item {
+  padding: 40px 0;
+}
+.careers-staff__item-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.careers-staff__item-channel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 32px 0 16px;
+
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.careers-staff__item-up {
+  padding: 20px 0;
+}
+.careers-staff__item-up h2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.10000000149011612px;
+  color: var(--black);
+}
+.careers-staff__item-up p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: var(--gray);
+}
+.careers-staff__item-management a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: var(--blue);
+  padding-right: 12px;
+}
+.careers-staff__item-info {
+  border: 1px solid #eaebf0;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.careers-staff__info-text {
+  border-bottom: 1px solid #eaebf0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.careers-staff__info-head h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.10000000149011612px;
+}
+.careers-staff__info-head {
+  grid-column: span 2;
+  padding-block: 16px;
+}
+.careers-staff__info-head p {
+  width: 168px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: var(--gray);
+}
+.careers-staff__info-text {
+  padding: 16px 32px 16px 16px;
+}
+.careers-staff__info-link {
+  display: flex;
+  justify-content: end;
+}
+.careers-staff__info-link h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: var(--black);
+}
 
 @media screen and (max-width: 767.98px) {
+  .career-title__hype a {
+    width: 100%;
+    text-align: center;
+  }
+  
+  
   .content-text {
     display: none;
   }
   .question-desktop {
     display: none;
   }
+  /* MUCAHIT CAREERS MOBILE BASLANGIC */
+  .careers-img__desktop {
+    display: none;
+  }
+  .careers-img__tablet {
+    display: none;
+  }
+  .careers-img__mobile {
+    display: block;
+  }
+  .carees-staff__info-type {
+    display: none;
+  }
+  /* MUCAHIT CAREERS MOBILE BITIS */
 }
 
 /* TABLET */
@@ -2321,12 +2493,74 @@ header {
     margin-top: 48px;
     display: block;
   }
+  /* MUCAHIT CAREERS TABLET BASLANGIC */
+  .careers-img__desktop {
+    display: none;
+  }
+  .careers-img__tablet {
+    display: block;
+  }
+  .careers-img__mobile {
+    display: none;
+  }
+  .careers-industry__head {
+    padding: 32px;
+  }
+  .careers-team__role {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .careers-team__item-link {
+    width: 213px;
+  }
+  .careers-industry__head h2 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+  .careers-staff__item {
+    padding: 40px 0;
+  }
+  .careers-staff__item-channel {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 32px;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+  }
+  .careers-staff__info-head p {
+    width: inherit;
+  }
+  .careers-staff__info-text {
+    display: block;
+  }
+  .careers-staff__info-head {
+    grid-column: span 2;
+    padding-block: 16px;
+  }
+  .careers-staff__info-head:first-child {
+    padding-block: 20px;
+  }
+  .carees-staff__info-type {
+    padding-left: 32px;
+  }
+  .careers-staff__info-link {
+    padding-left: 32px;
+  }
+  .careers-staff__info-link {
+    display: flex;
+    justify-content: start;
+  }
+  /* MUCAHIT CAREERS TABLET BITIS */
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
+    margin: 0 auto;
   }
 
   header {
@@ -2710,4 +2944,31 @@ header {
     padding-left: 32px;
     display: block;
   }
+  /* MUCAHIT CAREERS DESKTOP BASLANGIC */
+  .careers-img__desktop {
+    display: block;
+  }
+  .careers-img__tablet {
+    display: none;
+  }
+  .careers-img__mobile {
+    display: none;
+  }
+  .careers-team__role {
+    padding-top: 12px;
+  }
+  .careers-team__item-link {
+    padding-top: 12px;
+    width: 384px;
+  }
+  .careers-team__role {
+    padding: 0;
+  }
+  .careers-staff__item {
+    padding: 16px 0;
+  }
+
+  /* MUCAHIT CAREERS DESKTOP BITIS */
 }
+
+
