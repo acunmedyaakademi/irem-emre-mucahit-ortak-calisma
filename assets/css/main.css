@@ -979,7 +979,6 @@ header {
   gap: 42px;
 }
 
-
 /* Emre */
 
 .about_stay {
@@ -1434,7 +1433,6 @@ header {
 }
 
 .payment-type a {
-  
   padding: 9px 60px;
   color: #f9f9f9;
   font-size: 14px;
@@ -1535,7 +1533,6 @@ header {
 }
 /* mucahit */
 
-
 /* Pricing-Emre */
 
 .pricing_grid_container {
@@ -1566,18 +1563,31 @@ header {
   margin-top: 8px;
 }
 
-
 .pricing_page_titles {
   margin-top: 64px;
   text-align: center;
 }
 
 .pricing_page_titles h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+}
+
+/* pricing-irem */
+.pricing-customers {
+  background-color: #f8f9fb;
+}
+.pricing-customers h2 {
+  padding-top: 32px;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -0.02em;
- color: var(--black);
+  color: var(--black);
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .pricing_page_titles p {
@@ -1588,7 +1598,6 @@ header {
   text-align: center;
   color: var(--gray);
   margin-top: 12px;
-
 }
 
 .pricing_outside_info h5 {
@@ -1602,16 +1611,109 @@ header {
 }
 
 .pricing_outside_info h3 {
+  text-align: left;
+  color: #272d37;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -2%;
+}
+
+.pricing-customers_grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.pricing-customers_grid_items {
+  margin-bottom: 40px;
+}
+.pricing-customers_grid_items img {
+  padding-bottom: 16px;
+}
+.pricing-customers_grid_items p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #272d37;
+  padding-bottom: 16px;
+}
+.pricing-grid-sub {
+  display: flex;
+  gap: 10px;
+}
+.pricing-avatar-info h3 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+}
+.pricing-avatar-info p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+}
+
+.pricing-footer {
+  background-color: #151b28;
+}
+.pricing-footer h1 {
+  padding-top: 32px;
   font-size: 28px;
   font-weight: 600;
   line-height: 36px;
   letter-spacing: -0.02em;
   text-align: left;
-  color: var(--black);
+  color: var(--white);
   margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .pricing_outside_info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--gray);
+  margin-top: 16px;
+}
+
+.pricing-footer_buttons {
+  display: flex;
+  flex-direction: column;
+}
+.pricing-footer_buttons a:first-child {
+  background-color: #437ef7;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding-block: 12px;
+  margin-bottom: 16px;
+}
+.pricing-footer_buttons a:last-child {
+  background-color: #2c3444;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #f9f9f9;
+  text-align: center;
+  border-radius: 6px;
+  padding-block: 12px;
+  margin-bottom: 24px;
+}
+.pricing-footer_border {
+  border-bottom: 1px solid #2e3545;
+  margin-bottom: 24px;
+}
+.pricing-footer-logo p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1645,18 +1747,59 @@ header {
   .pricing_tablet {
     display: none;
   }
-  .pricing_desktop{
+  .pricing_desktop {
     display: none;
   }
-
 }
 
 /* Pricing-Emre */
 
+.pricing-footer-logo {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.pricing-footer_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 64px;
+  row-gap: 8px;
+  margin-bottom: 24px;
+}
 
+.pricing-footer_nav ul li {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #a5acba;
+  padding-bottom: 12px;
+}
 
+.pricing-footer_nav ul li:first-child {
+  color: #f9f9f9;
+  margin-bottom: 4px;
+}
+.pricing-footer_last {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding-bottom: 32px;
+}
+.pricing-footer_last p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #a5acba;
+}
 
-
+.pricing-footer-last_logo {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 
 @media screen and (max-width: 767.98px) {
   .content-text {
@@ -1940,18 +2083,18 @@ header {
     margin-top: 40px;
     gap: 32px;
   }
-      
+
   .pricing_page_titles {
     margin-top: 80px;
   }
-  
+
   .pricing_page_titles h3 {
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: -0.02em;
   }
-  
+
   .pricing_page_titles p {
     font-size: 16px;
     font-weight: 400;
@@ -1964,22 +2107,50 @@ header {
     margin-top: 40px;
     padding-inline: 2px;
   }
-  
-  
-  .pricing_outside_info h3 {
+
+  .pricing-customers_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 32px;
+  }
+  .pricing-customers_grid_items:last-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .pricing-footer_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 64px;
+    row-gap: 32px;
+  }
+  .pricing-footer-logo p {
+    width: 247px;
+  }
+  .pricing-footer_buttons {
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+  }
+  .pricing-footer_buttons a:first-child {
+    padding: 12px 18px;
+  }
+  .pricing-footer_buttons a:last-child {
+    padding: 12px 18px;
+    margin-top: 8px;
+  }
+  .pricing-footer h1 {
     font-size: 32px;
     font-weight: 600;
     line-height: 42px;
     letter-spacing: -0.01em;
     text-align: left;
   }
-  
 
   .pricing_button {
     margin-top: 40px;
   }
-  
-  
+
   .pricing_outside_image {
     margin-top: 48px;
 
@@ -1989,15 +2160,12 @@ header {
     .pricing_tablet {
       display: block;
     }
-    .pricing_desktop{
+    .pricing_desktop {
       display: none;
     }
-  
   }
-  
 
   /* .emre-pricing */
-
 }
 
 /* DESKTOP */
@@ -2193,8 +2361,6 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
-  
   }
 
   .about_stay h4 {
@@ -2210,7 +2376,6 @@ header {
     margin-top: 24px;
   }
 
-  
   .about_page-titles h2 {
     font-size: 32px;
     font-weight: 700;
@@ -2443,10 +2608,8 @@ header {
     align-items: center;
     gap: 140px;
     margin-top: 64px;
-
   }
-  
-  
+
   .pricing_outside_info h3 {
     font-size: 32px;
     font-weight: 600;
@@ -2454,13 +2617,11 @@ header {
     letter-spacing: -0.01em;
     text-align: left;
   }
-  
 
   .pricing_button {
     margin-top: 40px;
   }
-  
-  
+
   .pricing_outside_image {
     margin-top: 48px;
     margin-bottom: 64px;
@@ -2471,11 +2632,51 @@ header {
     .pricing_tablet {
       display: none;
     }
-    .pricing_desktop{
+    .pricing_desktop {
       display: block;
     }
-  
   }
-  
 
+  .pricing-customers_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 48px;
+  }
+  .pricing-customers_grid_items:last-child {
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+  .pricing-footer_grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 64px;
+    row-gap: 32px;
+  }
+  .pricing-footer-logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .pricing-footer-title-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .pricing-footer_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-top: 30px;
+  }
+  .pricing-footer_buttons a:first-child {
+    padding: 12px 18px;
+  }
+  .pricing-footer_buttons a:last-child {
+    padding: 12px 18px;
+    margin-top: 8px;
+  }
+  .pricing-footer h1 {
+    width: 901px;
+  }
 }
