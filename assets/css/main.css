@@ -198,6 +198,9 @@ header {
     }
   }
 }
+.white-theme__link ul li a {
+  color: white;
+}
 
 .header__sign {
   display: none;
@@ -1800,6 +1803,102 @@ header {
   align-items: center;
   gap: 24px;
 }
+/* career-irem */
+.darktheme {
+  width: 100%;
+  background: url(/assets/images/careerbackground1.png) bottom,
+    url(/assets/images/careerbackground2.png) bottom;
+  background-size: cover;
+}
+.career-header {
+  background: none;
+  border-bottom: none;
+}
+.career-title__hype h1 {
+  margin-top: 32px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #f9f9f9;
+  margin-bottom: 16px;
+}
+.career-title__hype p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: #f9f9f9;
+  margin-bottom: 32px;
+}
+.white-hamburger a i {
+  color: white;
+}
+.career-title__hype a {
+  background-color: #437ef7;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 12px 129px;
+  border-radius: 6px;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.career-ındustry-text h3 {
+  margin-top: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: #437ef7;
+  margin-bottom: 8px;
+}
+.career-ındustry-text h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #272d37;
+  margin-bottom: 16px;
+}
+.career-ındustry-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+  margin-bottom: 32px;
+}
+.career-ındustry-text a {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #fff;
+  background-color: #437ef7;
+  padding: 12px 38px 12px 18px;
+  border-radius: 6px;
+  margin-bottom: 32px;
+}
+.career-ındustry-text a i {
+  padding-left: 6px;
+}
+.mobile-career {
+  margin-top: 44px;
+}
+
+.tablet-career {
+  display: none;
+}
+.desktop-career {
+  display: none;
+}
+
+/* career-irem */
 
 @media screen and (max-width: 767.98px) {
   .content-text {
@@ -2166,6 +2265,62 @@ header {
   }
 
   /* .emre-pricing */
+  .career-title__hype {
+    text-align: center;
+  }
+  .career-title__hype h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .career-title__hype p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .career-title__hype a {
+    padding: 12px 18px;
+    text-align: center;
+    justify-content: center;
+  }
+  .career-ındustry-text h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+  }
+  .career-ındustry-text h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+  .career-ındustry-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .career-ındustry-text a {
+    padding: 12px 25px 12px 18px;
+  }
+  .mobile-career {
+    display: none;
+  }
+  .tablet-career {
+    margin-top: 48px;
+    display: block;
+  }
 }
 
 /* DESKTOP */
@@ -2449,6 +2604,7 @@ header {
     display: grid;
     grid-template-columns: auto auto auto;
   }
+  /* irem */
   .about-demonstrate-title span {
     display: block;
     margin-bottom: 24px;
@@ -2459,184 +2615,6 @@ header {
     gap: 124px;
     margin-bottom: 64px;
   }
-
-  /* mucahit */
-  .question-desktop {
-    display: block;
-  }
-  .question-main__info {
-    border-radius: 6px;
-    margin: 64px 0;
-  }
-  .question-main__info-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 32px;
-    h3 {
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 24px;
-      letter-spacing: -0.10000000149011612px;
-      color: var(--black);
-    }
-    p {
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 24px;
-      letter-spacing: -0.10000000149011612px;
-      color: var(--gray);
-
-      i {
-        padding-left: 16px;
-      }
-    }
-  }
-  .industry-main {
-    margin-bottom: 64px;
-    h3 {
-      width: 752px;
-      text-align: center;
-      padding-bottom: 32px;
-    }
-  }
-  .footer {
-    margin-top: 64px;
-  }
-  .footer-items {
-    background-color: #fff;
-  }
-
-  .footer-items__logo {
-    width: 247px;
-    height: 112px;
-    p {
-      padding-top: 16px;
-      padding-bottom: 16px;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
-      letter-spacing: -0.10000000149011612px;
-      color: #5f6d7e;
-    }
-    i {
-      font-size: 24px;
-      padding-right: 24px;
-    }
-  }
-  .footer-main {
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer-link {
-    display: flex;
-    gap: 143px;
-  }
-  .footer-text {
-    ul {
-      p {
-        padding-bottom: 24px;
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 24px;
-        letter-spacing: -0.10000000149011612px;
-        color: #272d37;
-      }
-      li {
-        padding-bottom: 12px;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: -0.10000000149011612px;
-        color: #5f6d7e;
-      }
-    }
-  }
-  .footer-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 64px;
-    img {
-      padding-bottom: 16px;
-    }
-    p {
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
-      letter-spacing: -0.10000000149011612px;
-      text-align: center;
-      color: #5f6d7e;
-    }
-  }
-
-  .payment-type {
-    margin-bottom: 64px;
-  }
-  .pricing-head {
-    width: 640px;
-    margin: 0 auto;
-  }
-  .pricing-head h1 {
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: -0.01em;
-    text-align: center;
-    margin-bottom: 24px;
-    margin-top: 64px;
-  }
-  .pricing-head p {
-    text-align: center;
-    margin-bottom: 64px;
-  }
-  .pricing-payment-packs {
-    grid-template-columns: auto auto auto;
-    gap: 32px;
-    padding-bottom: 64px;
-  }
-
-  /* mucahit */
-  /* emre-pricing */
-
-  .pricing_page_titles {
-    margin-top: 128px;
-  }
-
-  .pricing_outside {
-    display: flex;
-    align-items: center;
-    gap: 140px;
-    margin-top: 64px;
-  }
-
-  .pricing_outside_info h3 {
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 42px;
-    letter-spacing: -0.01em;
-    text-align: left;
-  }
-
-  .pricing_button {
-    margin-top: 40px;
-  }
-
-  .pricing_outside_image {
-    margin-top: 48px;
-    margin-bottom: 64px;
-
-    .pricing_mobile {
-      display: none;
-    }
-    .pricing_tablet {
-      display: none;
-    }
-    .pricing_desktop {
-      display: block;
-    }
-  }
-
   .pricing-customers_grid {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -2678,5 +2656,58 @@ header {
   }
   .pricing-footer h1 {
     width: 901px;
+  }
+  /* irem */
+  .career-nav {
+    display: block;
+  }
+  .career-nav ul li a {
+    color: white;
+  }
+  .career-title__hype {
+    width: 640px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .career-title__hype h1 {
+    margin-top: 80px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .career-title__hype p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .career-ındustry {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    margin-top: 64px;
+  }
+  .career-ındustry-two {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 80px;
+    margin-top: 128px;
+  }
+  .career-ındustry-text {
+    width: 516px;
+    padding-left: 32px;
+  }
+  .tablet-career {
+    display: none;
+  }
+  .desktop-career {
+    padding-left: 32px;
+    display: block;
   }
 }
