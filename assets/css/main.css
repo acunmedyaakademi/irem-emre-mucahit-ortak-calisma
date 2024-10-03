@@ -2051,14 +2051,233 @@ header {
   letter-spacing: -0.10000000149011612px;
   color: var(--black);
 }
+/* careers emre */
+
+.careers_page_titles {
+  text-align: center;
+  margin-top: 72px;
+  margin-bottom: 40px;
+}
+
+.careers_page_titles h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: var(--black);
+}
+
+.careers_page_titles p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: var(--gray);
+  margin-top: 12px;
+}
+
+.careers_footer_image {
+  .careers_woman_tablet {
+    display: none;
+  }
+  .careers_woman_desktop {
+    display: none;
+  }
+}
+
+.careers_footer_info_top {
+  margin-top: 32px;
+}
+
+.careers_footer_info_top h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--black);
+  margin-top: 16px;
+}
+
+.careers_footer_info_top p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--gray);
+  margin-top: 16px;
+}
+
+.careers_border {
+  border-bottom: 1px solid #2E3545;
+  margin-top: 16px;
+}
+
+.careers_footer_info_bottom h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--black);
+  margin-top: 16px;
+}
+
+.careers_footer_info_bottom p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--gray);
+  margin-top: 16px;
+}
+
+.careers_footer_info_bottom span {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: var(--blue);
+  margin-top: 16px;
+  display: block;
+}
+
+.careers_footer_bottom {
+  background-color: #151b28;
+  margin-top: 32px;
+  padding-inline: 16px;
+}
+
+.careers_footer_bottom_grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.grid-inclusive {
+  display: flex;
+  gap: 110px;
+  margin-top: 24px;
+}
+
+.careers_grid_items img {
+  margin-top: 32px;
+}
+
+.careers_grid_items p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #a5acba;
+  margin-top: 16px;
+}
+
+.careers_grid_items ul li:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #f9f9f9;
+}
+
+.careers_grid_items ul li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #a5acba;
+  padding-bottom: 12px;
+}
+
+.careers_grid_items h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #f9f9f9;
+}
+
+.careers_grid_items h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #a5acba;
+  margin-top: 12px;
+}
+
+.careers_footer_button input {
+  background-color: #2c3444;
+  border-radius: 6px 0 0 6px;
+  border: 1px solid #2c3444;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  width: 255px;
+  height: 46px;
+  outline: none;
+}
+.careers_footer_button input::placeholder {
+  padding-left: 16px;
+}
+
+.careers_footer_button a {
+  background-color: #437ef7;
+  color: #ffffff;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  border-radius: 0 6px 6px 0;
+}
+
+.careers_footer_button {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.careers_footer_bottom_info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #a5acba;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.careers_footer_bottom_social {
+  display: flex;
+  gap: 64px;
+  padding-bottom: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.careers_footer_bottom_social i {
+  font-size: 24px;
+  color: #fff;
+}
 
 @media screen and (max-width: 767.98px) {
   .career-title__hype a {
     width: 100%;
     text-align: center;
   }
-  
-  
+
   .content-text {
     display: none;
   }
@@ -2554,6 +2773,113 @@ header {
     justify-content: start;
   }
   /* MUCAHIT CAREERS TABLET BITIS */
+  /* careers-emre */
+
+  .careers_page_titles {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .careers_page_titles h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+  }
+
+  .careers_page_titles p {
+    margin-top: 16px;
+  }
+
+  .careers_footer_image {
+    .careers_woman_mobile {
+      display: none;
+    }
+    .careers_woman_tablet {
+      display: block;
+    }
+    .careers_woman_desktop {
+      display: none;
+    }
+  }
+
+  .careers_footer_info_top {
+    margin-top: 32px;
+  }
+
+  .careers_footer_info_top h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: var(--black);
+  }
+
+  .careers_footer_info_top p {
+    margin-top: 18px;
+  }
+
+
+
+  .careers_footer_info_bottom h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-top: 0px;
+  }
+
+  .careers_footer_info_bottom {
+    margin-top: 88px;
+  }
+
+  .careers_footer_info_bottom p {
+    width: 272px;
+  }
+
+  .careers_inclusive {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    width: 640px;
+  }
+
+  .careers_footer_bottom_grid {
+    display: grid;
+    grid-template-columns: auto;
+    padding-inline: 32px;
+  }
+
+  .careers_grid_items p {
+    width: 328px;
+  }
+
+  .grid-inclusive:nth-child(1) {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .careers_grid_items:nth-child(3) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    grid-column-start: 2;
+  }
+  .grid-inclusive {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 80px;
+    gap: 280px;
+  }
+
+  .grid-inclusive:last-child {
+    padding-left: 120px;
+  }
+
+  /* careers-emre */
 }
 
 /* DESKTOP */
@@ -2969,6 +3295,76 @@ header {
   }
 
   /* MUCAHIT CAREERS DESKTOP BITIS */
+  /* careers-emre */
+
+  .careers_page_titles {
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 40px;
+  }
+
+  .careers_page_titles h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+  }
+
+  .careers_page_titles p {
+    margin-top: 16px;
+  }
+
+  .careers_footer_image {
+    .careers_woman_mobile {
+      display: none;
+    }
+    .careers_woman_tablet {
+      display: none;
+    }
+    .careers_woman_desktop {
+      display: block;
+    }
+  }
+
+  .careers_footer_top {
+    display: flex;
+    gap: 64px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+    margin-top: 64px;
+  }
+
+  .careers_inclusive {
+    margin-bottom: 60px;
+    width: 735px;
+  }
+
+  .careers_footer_bottom_grid {
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    padding-inline: 80px;
+  }
+
+  .careers_grid_items:nth-child(3) {
+    grid-column-end: 4;
+    grid-column-start: 4;
+  }
+
+  .careers_footer_bottom_logo {
+    margin-top: 24px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    gap: 750px;
+    align-items: center;
+  }
+
+  .careers_footer_bottom_social {
+    margin-top: 8px;
+  }
+
+  /* careers-emre */
 }
-
-
