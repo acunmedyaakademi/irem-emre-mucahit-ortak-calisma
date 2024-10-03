@@ -978,108 +978,7 @@ header {
   justify-content: center;
   gap: 42px;
 }
-/* mucahit */
-.question-main__header {
-  margin-bottom: 32px;
-  h3 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    text-align: center;
-  }
-  p {
-    padding-top: 12px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.10000000149011612px;
-    text-align: center;
-    color: var(--gray);
-  }
-}
-.question-main__info {
-  border: 1px solid var(--light-gray-border);
-}
-.question-main__info-item {
-  border-bottom: 1px solid var(--light-gray-border);
-  height: 92px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-inline: 32px;
-  h3 {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: -0.10000000149011612px;
-    color: var(--black);
-  }
-  p {
-    color: var(--gray);
-  }
-  span {
-    background-color: var(--icon-bg);
-    p {
-      color: var(--blue);
-      padding: 4px 12px;
-      border-radius: 4px;
-    }
-  }
-}
-.industry {
-  background-color: var(--blue-bg);
-}
-.industry-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 32px;
-  a {
-    padding-bottom: 8px;
-    color: var(--white);
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    letter-spacing: -0.10000000149011612px;
-  }
-  h3 {
-    padding-bottom: 16px;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 36px;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: var(--white);
-  }
-}
-.industry-mail {
-  button {
-    width: 343px;
-    height: 46px;
-    color: var(--white);
-    background-color: var(--blue);
-    border: none;
-    border-radius: 6px;
-    margin-bottom: 32px;
-    &:first-child {
-      background-color: var(--white);
-      color: var(--blue);
-    }
-  }
-}
-.industry-img {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  gap: 32px;
-  padding-bottom: 32px;
-}
-.footer-items {
-  height: 496px;
-  background-color: #fff;
-}
+
 
 /* Emre */
 
@@ -1392,6 +1291,108 @@ header {
   }
 }
 /* mucahit */
+.question-main__header {
+  margin-bottom: 32px;
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+  p {
+    padding-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    color: var(--gray);
+  }
+}
+.question-main__info {
+  border: 1px solid var(--light-gray-border);
+}
+.question-main__info-item {
+  border-bottom: 1px solid var(--light-gray-border);
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 32px;
+  h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    color: var(--black);
+  }
+  p {
+    color: var(--gray);
+  }
+  span {
+    background-color: var(--icon-bg);
+    p {
+      color: var(--blue);
+      padding: 4px 12px;
+      border-radius: 4px;
+    }
+  }
+}
+.industry {
+  background-color: var(--blue-bg);
+}
+.industry-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+  a {
+    padding-bottom: 8px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.10000000149011612px;
+  }
+  h3 {
+    padding-bottom: 16px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--white);
+  }
+}
+.industry-mail {
+  button {
+    width: 343px;
+    height: 46px;
+    color: var(--white);
+    background-color: var(--blue);
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 32px;
+    &:first-child {
+      background-color: var(--white);
+      color: var(--blue);
+    }
+  }
+}
+.industry-img {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  gap: 32px;
+  padding-bottom: 32px;
+}
+.footer-items {
+  height: 496px;
+  background-color: #fff;
+}
+/* mucahit */
 
 .pricing-header {
   background-color: var(--black-theme);
@@ -1533,6 +1534,128 @@ header {
   margin-bottom: 32px;
 }
 /* mucahit */
+
+
+/* Pricing-Emre */
+
+.pricing_grid_container {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 32px;
+  padding-inline: 2px;
+  gap: 40px;
+}
+
+.pricing-grid-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--black);
+  margin-top: 16px;
+}
+
+.pricing-grid-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--gray);
+  margin-top: 8px;
+}
+
+
+.pricing_page_titles {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.pricing_page_titles h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+ color: var(--black);
+}
+
+.pricing_page_titles p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: var(--gray);
+  margin-top: 12px;
+
+}
+
+.pricing_outside_info h5 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--blue);
+  margin-top: 32px;
+}
+
+.pricing_outside_info h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--black);
+  margin-top: 8px;
+}
+
+.pricing_outside_info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--gray);
+  margin-top: 16px;
+}
+
+.pricing_button {
+  margin-top: 32px;
+}
+
+.pricing_button a {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  border-radius: 6px;
+}
+
+.pricing_button a i {
+  color: var(--white);
+}
+
+.pricing_outside_image {
+  margin-top: 32px;
+  .pricing_tablet {
+    display: none;
+  }
+  .pricing_desktop{
+    display: none;
+  }
+
+}
+
+/* Pricing-Emre */
+
+
+
+
 
 
 @media screen and (max-width: 767.98px) {
@@ -1808,6 +1931,73 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* .emre-pricing */
+
+  .pricing_grid_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+    gap: 32px;
+  }
+      
+  .pricing_page_titles {
+    margin-top: 80px;
+  }
+  
+  .pricing_page_titles h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+  }
+  
+  .pricing_page_titles p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    margin-top: 16px;
+  }
+
+  .pricing_outside {
+    margin-top: 40px;
+    padding-inline: 2px;
+  }
+  
+  
+  .pricing_outside_info h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+  
+
+  .pricing_button {
+    margin-top: 40px;
+  }
+  
+  
+  .pricing_outside_image {
+    margin-top: 48px;
+
+    .pricing_mobile {
+      display: none;
+    }
+    .pricing_tablet {
+      display: block;
+    }
+    .pricing_desktop{
+      display: none;
+    }
+  
+  }
+  
+
+  /* .emre-pricing */
+
 }
 
 /* DESKTOP */
@@ -2003,6 +2193,8 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
+  
   }
 
   .about_stay h4 {
@@ -2018,6 +2210,7 @@ header {
     margin-top: 24px;
   }
 
+  
   .about_page-titles h2 {
     font-size: 32px;
     font-weight: 700;
@@ -2039,7 +2232,6 @@ header {
     gap: 32px;
     margin-top: 64px;
   }
-
   .channel-articles .channel-articles__item:nth-child(4) {
     display: none;
   }
@@ -2240,5 +2432,50 @@ header {
   }
 
   /* mucahit */
+  /* emre-pricing */
+
+  .pricing_page_titles {
+    margin-top: 128px;
+  }
+
+  .pricing_outside {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    margin-top: 64px;
+
+  }
+  
+  
+  .pricing_outside_info h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+  
+
+  .pricing_button {
+    margin-top: 40px;
+  }
+  
+  
+  .pricing_outside_image {
+    margin-top: 48px;
+    margin-bottom: 64px;
+
+    .pricing_mobile {
+      display: none;
+    }
+    .pricing_tablet {
+      display: none;
+    }
+    .pricing_desktop{
+      display: block;
+    }
+  
+  }
+  
 
 }
