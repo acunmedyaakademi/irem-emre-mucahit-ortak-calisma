@@ -2784,12 +2784,11 @@ header {
 .support-main__items {
   border: 1px solid #eaeaea;
   border-radius: 5px;
-
 }
 .support-main__item-info span p {
   color: var(--blue);
   padding: 4px 12px;
-  background-color:#F5FAFF ;
+  background-color: #f5faff;
   border-radius: 5px;
 }
 .support-main__item-info {
@@ -2819,7 +2818,65 @@ header {
   color: var(--gray);
 }
 /* MUCAHIT SUPPORT MOBILE BITIS */
+/* MUCAHIT CONTACT MOBILE BASLANGIC */
+.contact-email {
+  padding: 40px 0;
+}
+.contact-email__item {
+  margin-bottom: 16px;
+}
+.contact-email__message  {
+  margin-block: 16px;
+  width: 345px;
+  height: 145px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+}
+.contact-email__item input {
+  width: 343px;
+  height: 46px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+}
 
+.contact-email__item input::placeholder {
+  padding-left: 16px;
+}
+.contact-email__item h3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: var(--black);
+  margin-bottom: 8px;
+}
+.contact-email__item-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-email__item-privacy {
+  margin-bottom: 16px;
+  display: flex;
+}
+.contact-email__item-privacy p {
+  padding-left: 12px;
+}
+.contact-email__item-btn {
+  width: 343px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  color: var(--white);
+  border-radius: 6px;
+}
+.contact-email__item-btn a {
+  color: var(--white);
+}
+/* MUCAHIT CONTACT MOBILE BITIS */
 @media screen and (max-width: 767.98px) {
   .career-title__hype a {
     width: 100%;
@@ -3703,6 +3760,25 @@ header {
     width: 494px;
   }
   /* MUCAHIT TABLET BITIS  */
+  .contact-email {
+    background-color: #F8F9FB;
+    border-radius: 8px;
+    padding: 32px;
+  }
+  .contact-email__grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .contact-email__item input {
+    width: 308px;
+  }
+  .contact-email__item-btn a { 
+    width: 88px;
+  }
+  .contact-email__message input {
+    height: 175px;
+    width: 640px;
+  }
 }
 
 /* DESKTOP */
