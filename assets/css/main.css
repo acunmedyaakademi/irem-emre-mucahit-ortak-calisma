@@ -3475,6 +3475,9 @@ header {
   /* careers-emre */
 
   /* blog-irem */
+  .blog-latest-title h3 {
+    margin-bottom: 64px;
+  }
   .blog-image-grid {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -3508,5 +3511,4 @@ header {
   .blog-image-grid__item:nth-child(6) img:first-child {
     display: none;
   }
-  
 }
