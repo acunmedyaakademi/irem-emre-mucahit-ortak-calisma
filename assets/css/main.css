@@ -1825,7 +1825,6 @@ header {
   margin-bottom: 16px;
 }
 .career-title__hype p {
-  font-family: Inter;
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
@@ -1849,7 +1848,7 @@ header {
   display: inline-block;
   margin-bottom: 40px;
 }
-.career-industry-text h3 {
+.career-ındustry-text h3 {
   margin-top: 32px;
   font-size: 14px;
   font-weight: 600;
@@ -1858,7 +1857,7 @@ header {
   color: #437ef7;
   margin-bottom: 8px;
 }
-.career-industry-text h2 {
+.career-ındustry-text h2 {
   font-size: 28px;
   font-weight: 600;
   line-height: 36px;
@@ -1866,7 +1865,7 @@ header {
   color: #272d37;
   margin-bottom: 16px;
 }
-.career-industry-text p {
+.career-ındustry-text p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1874,7 +1873,7 @@ header {
   color: #5f6d7e;
   margin-bottom: 32px;
 }
-.career-industry-text a {
+.career-ındustry-text a {
   font-size: 15px;
   font-weight: 600;
   line-height: 22px;
@@ -1884,7 +1883,7 @@ header {
   border-radius: 6px;
   margin-bottom: 32px;
 }
-.career-industry-text a i {
+.career-ındustry-text a i {
   padding-left: 6px;
 }
 .mobile-career {
@@ -2340,6 +2339,7 @@ header {
 
 .blog-background {
   background-color: #f8f9fb;
+  background-color: #f8f9fb;
 }
 
 .blog-top-titles {
@@ -2728,7 +2728,60 @@ header {
   color: #a5acba;
 }
 /* MUCAHIT BLOG MOBILE BITIS */
-
+/* <!-- irem-contact  --> */
+.contact-dark__background {
+  background-color: #151b28;
+}
+.contact-ındustry-text h3 {
+  margin-top: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: #437ef7;
+  margin-bottom: 8px;
+  padding-top: 32px;
+}
+.contact-ındustry-text h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #f9f9f9;
+  margin-bottom: 16px;
+}
+.contact-ındustry-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #a5acba;
+  margin-bottom: 32px;
+}
+.contact-ındustry-text a {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #fff;
+  background-color: #437ef7;
+  padding: 12px 38px 12px 18px;
+  border-radius: 6px;
+  margin-bottom: 32px;
+}
+.mobile-contact {
+  margin-top: 32px;
+  padding-bottom: 32px;
+}
+.tablet-contact {
+  display: none;
+}
+.desktop-contact {
+  display: none;
+}
+.contact-ındustry-text a i {
+  padding-left: 6px;
+}
+/* <!-- irem-contact  --> */
 /* MUCAHIT SUPPORT MOBILE BASLANGIC */
 .support-header {
   background-color: var(--white);
@@ -3320,6 +3373,41 @@ header {
     margin-top: 48px;
     display: block;
   }
+  /* <!-- irem-contact  --> */
+  .contact-ındustry-text h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+  }
+  .contact-ındustry-text h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+  .contact-ındustry-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .contact-ındustry-text a {
+    padding: 12px 25px 12px 18px;
+  }
+  .mobile-contact {
+    display: none;
+  }
+  .tablet-contact {
+    margin-top: 48px;
+    display: block;
+    padding-bottom: 40px;
+  }
+  /* <!-- irem-contact  --> */
   /* MUCAHIT CAREERS TABLET BASLANGIC */
   .careers-img__desktop {
     display: none;
@@ -4169,6 +4257,28 @@ header {
     padding-left: 32px;
     display: block;
   }
+  /* <!-- irem-contact  --> */
+  .contact-ındustry-two {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 80px;
+    margin-top: 128px;
+  }
+  .contact-ındustry-text {
+    width: 516px;
+    padding-left: 32px;
+  }
+  .tablet-contact {
+    display: none;
+  }
+  .desktop-contact {
+    padding-left: 32px;
+    display: block;
+    padding-block: 64px;
+    flex-direction: row-reverse;
+  }
+  /* <!-- irem-contact  --> */
   /* MUCAHIT CAREERS DESKTOP BASLANGIC */
   .careers-img__desktop {
     display: block;
