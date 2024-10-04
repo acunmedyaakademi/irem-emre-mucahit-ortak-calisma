@@ -1784,6 +1784,74 @@ color: #F9F9F9;
 
 /* blog-emre */
 
+/* support-emre */
+
+.support-page-titles {
+  margin-top: 72px;
+  text-align: center;
+}
+
+.support-page-titles h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: var(--black);
+}
+
+.support-page-titles p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: var(--gray);
+  margin-top: 12px;
+}
+
+.support-inclusive {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 32px;
+}
+
+.support-items {
+  border: 1px solid #EAEBF0;
+  border-radius: 5px;
+  padding-inline: 16px;
+}
+
+.support-image {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.support-items h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #272D37;
+}
+
+.support-items p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: var(--gray);
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+
+/* support-emre */
+
+
+
 
 @media screen and (max-width: 767.98px) {
 }
@@ -2399,6 +2467,42 @@ margin-bottom: 0px;
 
 /* blog-emre */
 
+/* support-emre */
+
+.support-page-titles {
+  margin-top: 80px;
+}
+
+.support-page-titles h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+}
+
+.support-page-titles p {
+  margin-top: 16px;
+}
+
+.support-inclusive {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.support-items {
+  width: 336px;
+}
+
+.support-items:nth-child(3) {
+  display: none;
+}
+
+/* support-emre */
+
+
+
+
 }
 
 /* DESKTOP */
@@ -3001,6 +3105,29 @@ margin-bottom: 0px;
 }
 
 /* blog-emre */
+
+
+
+/* support-emre */
+
+.support-page-titles {
+  margin-top: 128px;
+}
+
+
+.support-items {
+  width: 384px;
+}
+
+.support-inclusive {
+  margin-top: 64px;
+}
+
+.support-items:nth-child(3) {
+  display: block;
+}
+
+/* support-emre */
 
 
 }
