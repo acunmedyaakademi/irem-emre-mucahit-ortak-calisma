@@ -2110,7 +2110,7 @@ header {
 }
 
 .careers_border {
-  border-bottom: 1px solid #2E3545;
+  border-bottom: 1px solid #2e3545;
   margin-top: 16px;
 }
 
@@ -2270,6 +2270,69 @@ header {
 .careers_footer_bottom_social i {
   font-size: 24px;
   color: #fff;
+}
+
+/* blog-irem */
+.blog-latest-title {
+  margin-top: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #272d37;
+  margin-bottom: 24px;
+}
+.blog-image-grid {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 32px;
+}
+
+.blog-image-grid__item h5 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #5f6d7e;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.blog-image-grid__item p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #272d37;
+  margin-bottom: 16px;
+}
+.blog-image-grid__item a {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #437ef7;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.blog-tablet-img1 {
+  display: none;
+}
+.blog-tablet-img2 {
+  display: none;
+}
+.blog-tablet-img3 {
+  display: none;
+}
+.blog-tablet-img4 {
+  display: none;
+}
+.blog-desktop-img {
+  display: none;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -2820,8 +2883,6 @@ header {
     margin-top: 18px;
   }
 
-
-
   .careers_footer_info_bottom h3 {
     font-size: 22px;
     font-weight: 600;
@@ -2880,6 +2941,51 @@ header {
   }
 
   /* careers-emre */
+  /* blog-irem */
+  .blog-image-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 32px;
+    row-gap: 96px;
+  }
+  .blog-image-grid__item:nth-child(5) {
+    display: none;
+  }
+  .blog-image-grid__item:nth-child(6) {
+    display: none;
+  }
+  .blog-tablet-img1 {
+    display: block;
+  }
+  .blog-tablet-img2 {
+    display: block;
+  }
+  .blog-tablet-img3 {
+    display: block;
+  }
+  .blog-tablet-img4 {
+    display: block;
+  }
+  .blog-mobile-img1 {
+    display: none;
+  }
+  .blog-mobile-img2 {
+    display: none;
+  }
+  .blog-mobile-img3 {
+    display: none;
+  }
+  .blog-mobile-img4 {
+    display: none;
+  }
+  .blog-latest-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 32px;
+  }
 }
 
 /* DESKTOP */
@@ -3367,4 +3473,40 @@ header {
   }
 
   /* careers-emre */
+
+  /* blog-irem */
+  .blog-image-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 32px;
+    row-gap: 48px;
+  }
+  .blog-desktop-img {
+    display: block;
+  }
+  .blog-image-grid__item:nth-child(5) {
+    display: block;
+  }
+  .blog-image-grid__item:nth-child(6) {
+    display: block;
+  }
+  .blog-tablet-img1 {
+    display: none;
+  }
+  .blog-tablet-img2 {
+    display: none;
+  }
+  .blog-tablet-img3 {
+    display: none;
+  }
+  .blog-tablet-img4 {
+    display: none;
+  }
+  .blog-image-grid__item:nth-child(5) img:first-child {
+    display: none;
+  }
+  .blog-image-grid__item:nth-child(6) img:first-child {
+    display: none;
+  }
+  
 }
